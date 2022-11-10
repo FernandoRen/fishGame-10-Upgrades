@@ -1,0 +1,28 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+#canvas-1 {
+    border: 5px solid #333;
+    background-color: #4d79bc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky{
+    display: none;
+}
+/*se agregó color de fondo para que se viera más llamativo*/
+body{
+    margin: 0; /*margin 0 para que quede centrado*/
+    width: 100%; /*le indicamos que tome el 100% del espacio que encuentre*/
+    height: 100vh; /*le indicamos que tome todo el alto de la ventana del navegador*/
+    background: linear-gradient(to right, rgb(190, 90, 90) 0%, rgb(192, 100, 100) 50%, rgb(90, 58, 150) 50%, rgb(65, 6, 80) 100%);
+    /*grandiete para que la mitad sea purpura y la otra mitad rosa*/
+}
